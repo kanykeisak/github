@@ -1,0 +1,61 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 940px;
+}
+
+.title{
+    width: 940px;
+    padding: 21px 0;
+ }
+
+.p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #000;
+}
+
+.inputWrapper {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputName{
+    width: 508px;
+    height: 50px;
+    display: flex;
+    gap: 84px;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.inputP{
+    margin: 0 auto;
+    font-family:"Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.85);
+}
+.name{
+    margin: 42px;
+    text-align: left;
+}
+.inputPl{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.result{
+    width: 940px;
+}
