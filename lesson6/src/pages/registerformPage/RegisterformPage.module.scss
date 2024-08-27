@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 355px auto;
+    .form{
+        border: 1px solid #fff;
+        border-radius: 15px;
+        width: 600px;
+        height: 680px;
+        padding: 30px 50px;
+        .register{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .title{
+            width: 169px;
+            height: 33px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 140%;
+            text-align: center;
+            color: #fff;
+        }
+        .formstyle{
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+            .style {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 24px;
+                p {
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 140%;
+                    color: #fff;
+                    margin-bottom: 12px;
+                }
+                input {
+                    color: white;
+                    border: 1px solid #fff;
+                    border-radius: 15px;
+                    padding: 0px 20px;
+                    width: 500px;
+                    height: 50px;
+                    background-color: black;
+                }
+            }
+        }
+        .btn{
+            margin-top: 14px;
+            border-radius: 11px;
+            padding: 0px 7px;
+            width: 500px;
+            height: 56px;
+            background: #db00ff;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 150%;
+            text-align: center;
+            color: #fff;
+
+        }
+    }
+}
+//:root {
+//    --font-family: "Roboto", sans-serif;
+//    --second-family: "Arial", sans-serif;
+//    --third-family: "Inter", sans-serif;
+//    --font3: "Font Awesome 5 Free", sans-serif;
+//}

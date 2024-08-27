@@ -1,0 +1,14 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.input{
+    padding: 10px;
+    border-radius: 5px;
+}
+.input[aria-invalid='true']{
+    border-color: red;
+}
